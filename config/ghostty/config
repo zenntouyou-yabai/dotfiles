@@ -1,0 +1,61 @@
+# ======================
+# Ghostty - Tokyo Night
+# ======================
+
+# Font
+font-family = "Monaco"
+font-size = 14
+
+# Theme
+theme = "TokyoNight"
+
+# Cursor
+cursor-style = bar
+cursor-style-blink = true
+
+# Window
+window-padding-x = 16
+window-padding-y = 16
+window-decoration = true
+
+# 背景透過 + blur
+background-opacity = 0.9
+background-blur-radius = 20
+
+# Scrollback
+scrollback-limit = 10000
+
+# Shell Integration
+shell-integration = detect
+shell-integration-features = cursor,sudo,title
+
+# Claude Code / tmux がマウスをキャプチャ中でも Shift+ドラッグで選択可能にする
+mouse-shift-capture = false
+
+# 選択したら自動コピー
+copy-on-select = true
+
+# Quick Terminal（Option+Space でどこからでも呼び出し）
+keybind = global:opt+space=toggle_quick_terminal
+quick-terminal-position = top
+quick-terminal-animation-duration = 0.2
+
+# 入力中マウスカーソルを非表示
+mouse-hide-while-typing = true
+
+# 左Option = Alt（CLI ツール向け）、右Option = テキスト選択バイパス用に開放
+macos-option-as-alt = left
+
+# タブ・ペインを閉じる前に確認
+confirm-close-surface = true
+
+# Retina でフォントをくっきり表示
+font-thicken = true
+
+# ペイン分割キーバインド
+keybind = cmd+d=new_split:right
+keybind = cmd+shift+d=new_split:down
+keybind = cmd+opt+left=goto_split:left
+keybind = cmd+opt+right=goto_split:right
+keybind = cmd+opt+up=goto_split:top
+keybind = cmd+opt+down=goto_split:bottom

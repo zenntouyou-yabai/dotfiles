@@ -1,0 +1,26 @@
+# AI作業ディレクトリ（全プロジェクト共通）
+z-ai/
+
+# 機密情報（絶対にコミットしない）
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.pfx
+*.p12
+
+# シークレットファイル
+.secrets
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Editor
+.idea/
+*.swp
+*.swo
